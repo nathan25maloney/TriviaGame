@@ -1,6 +1,48 @@
 img {
-	position: relative;
-	left: 29%;
-	height: 280px;
-	width: 280px;
+	position:fixed;
+	margin:auto;
+	top:20px;
+	bottom:-10px;
+	left:0;
+	right:0;
+	margin-bottom: 50px;
+	max-height: 200px;
+
+	
+}
+body  {
+	background-color: rgb(253,128,0);
+}
+
+button {
+	background-color: #191c22;
+	color: white;
+	border-color: black;
+	min-width: 250px;
+}
+
+
+.jumbotron {
+	background-color: #191c22;
+	color: white;
+	padding-bottom: 10px;
+}
+
+#show-number {
+	font-size: 35px;
+}
+
+#header {
+	position:fixed;
+	margin:auto;
+	top:0;
+	bottom:61%;
+	left:0;
+	right:75%;
+	margin-bottom: ;
+	max-height: 130px;
+}
+
+h3 {
+	font-size: 20px;
 }
